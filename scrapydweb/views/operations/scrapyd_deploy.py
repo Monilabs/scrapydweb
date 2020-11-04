@@ -23,7 +23,7 @@ setup(
     name         = 'project',
     version      = '1.0',
     packages     = find_packages(),
-    package_data = {'%(settings)': ['.env']},
+    package_data = {'transpiders': ['.env']},
     entry_points = {'scrapy': ['settings = %(settings)s']},
 )
 """
